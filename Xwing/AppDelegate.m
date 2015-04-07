@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AGTMainViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,7 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    AGTMainViewController * xVC = [AGTMainViewController new];
+    self.window.rootViewController = xVC;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

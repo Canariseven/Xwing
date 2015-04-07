@@ -12,6 +12,10 @@
 		323BE2AA1AD3330B00054411 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323BE2A91AD3330B00054411 /* Images.xcassets */; };
 		323BE2AD1AD3330B00054411 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323BE2AB1AD3330B00054411 /* LaunchScreen.xib */; };
 		323BE2B91AD3330B00054411 /* XwingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 323BE2B81AD3330B00054411 /* XwingTests.m */; };
+		323BE2C51AD3331B00054411 /* AGTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323BE2C31AD3331B00054411 /* AGTMainViewController.m */; };
+		323BE2C61AD3331B00054411 /* AGTMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323BE2C41AD3331B00054411 /* AGTMainViewController.xib */; };
+		323BE2C91AD3343300054411 /* xwing.png in Resources */ = {isa = PBXBuildFile; fileRef = 323BE2C71AD3343300054411 /* xwing.png */; };
+		323BE2CA1AD3343300054411 /* space.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 323BE2C81AD3343300054411 /* space.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,11 @@
 		323BE2B21AD3330B00054411 /* XwingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XwingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		323BE2B71AD3330B00054411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		323BE2B81AD3330B00054411 /* XwingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XwingTests.m; sourceTree = "<group>"; };
+		323BE2C21AD3331B00054411 /* AGTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTMainViewController.h; sourceTree = "<group>"; };
+		323BE2C31AD3331B00054411 /* AGTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTMainViewController.m; sourceTree = "<group>"; };
+		323BE2C41AD3331B00054411 /* AGTMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGTMainViewController.xib; sourceTree = "<group>"; };
+		323BE2C71AD3343300054411 /* xwing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xwing.png; sourceTree = "<group>"; };
+		323BE2C81AD3343300054411 /* space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = space.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +85,16 @@
 		323BE2A11AD3330B00054411 /* Xwing */ = {
 			isa = PBXGroup;
 			children = (
+				323BE2C71AD3343300054411 /* xwing.png */,
+				323BE2C81AD3343300054411 /* space.jpg */,
 				323BE2A61AD3330B00054411 /* AppDelegate.h */,
 				323BE2A71AD3330B00054411 /* AppDelegate.m */,
 				323BE2A91AD3330B00054411 /* Images.xcassets */,
 				323BE2AB1AD3330B00054411 /* LaunchScreen.xib */,
 				323BE2A21AD3330B00054411 /* Supporting Files */,
+				323BE2C21AD3331B00054411 /* AGTMainViewController.h */,
+				323BE2C31AD3331B00054411 /* AGTMainViewController.m */,
+				323BE2C41AD3331B00054411 /* AGTMainViewController.xib */,
 			);
 			path = Xwing;
 			sourceTree = "<group>";
@@ -192,7 +206,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				323BE2AD1AD3330B00054411 /* LaunchScreen.xib in Resources */,
+				323BE2C91AD3343300054411 /* xwing.png in Resources */,
+				323BE2CA1AD3343300054411 /* space.jpg in Resources */,
 				323BE2AA1AD3330B00054411 /* Images.xcassets in Resources */,
+				323BE2C61AD3331B00054411 /* AGTMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +229,7 @@
 			files = (
 				323BE2A81AD3330B00054411 /* AppDelegate.m in Sources */,
 				323BE2A51AD3330B00054411 /* main.m in Sources */,
+				323BE2C51AD3331B00054411 /* AGTMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +348,7 @@
 				INFOPLIST_FILE = Xwing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -340,6 +359,7 @@
 				INFOPLIST_FILE = Xwing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
