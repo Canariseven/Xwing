@@ -20,7 +20,7 @@
     AGTMainViewController * xVC = [AGTMainViewController new];
     self.window.rootViewController = xVC;
     
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor blackColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

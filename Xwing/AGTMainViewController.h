@@ -11,5 +11,7 @@
 @interface AGTMainViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *spaceView;
 @property (weak, nonatomic) IBOutlet UIImageView *xwingView;
+@property (weak, nonatomic) IBOutlet UIImageView *space2View;
+@property (weak, nonatomic) IBOutlet UIImageView *deathStar;
 
 @end

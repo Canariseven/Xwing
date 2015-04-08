@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322D05F41AD5E7A2000D8E54 /* jumpSpace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 322D05F31AD5E7A2000D8E54 /* jumpSpace.jpg */; };
+		322D05F61AD5ED9B000D8E54 /* deathstar_detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 322D05F51AD5ED9B000D8E54 /* deathstar_detail.png */; };
+		3239E5A21AD5CAB90047B825 /* saiUfL2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3239E5A11AD5CAB90047B825 /* saiUfL2.png */; };
 		323BE2A51AD3330B00054411 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 323BE2A41AD3330B00054411 /* main.m */; };
 		323BE2A81AD3330B00054411 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 323BE2A71AD3330B00054411 /* AppDelegate.m */; };
 		323BE2AA1AD3330B00054411 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323BE2A91AD3330B00054411 /* Images.xcassets */; };
@@ -16,6 +19,9 @@
 		323BE2C61AD3331B00054411 /* AGTMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323BE2C41AD3331B00054411 /* AGTMainViewController.xib */; };
 		323BE2C91AD3343300054411 /* xwing.png in Resources */ = {isa = PBXBuildFile; fileRef = 323BE2C71AD3343300054411 /* xwing.png */; };
 		323BE2CA1AD3343300054411 /* space.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 323BE2C81AD3343300054411 /* space.jpg */; };
+		32AC5DCD1AD5A85F0045E500 /* xwingBehind.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AC5DCC1AD5A85F0045E500 /* xwingBehind.png */; };
+		32AC5DD01AD5AA1A0045E500 /* xwing_detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AC5DCE1AD5A9800045E500 /* xwing_detail.png */; };
+		32B087C01AD4778900D12298 /* black-hole.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32B087BF1AD4778900D12298 /* black-hole.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		322D05F31AD5E7A2000D8E54 /* jumpSpace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jumpSpace.jpg; path = ../jumpSpace.jpg; sourceTree = "<group>"; };
+		322D05F51AD5ED9B000D8E54 /* deathstar_detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deathstar_detail.png; path = ../deathstar_detail.png; sourceTree = "<group>"; };
+		3239E5A11AD5CAB90047B825 /* saiUfL2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saiUfL2.png; sourceTree = "<group>"; };
 		323BE29F1AD3330B00054411 /* Xwing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xwing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		323BE2A31AD3330B00054411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		323BE2A41AD3330B00054411 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,6 +53,9 @@
 		323BE2C41AD3331B00054411 /* AGTMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGTMainViewController.xib; sourceTree = "<group>"; };
 		323BE2C71AD3343300054411 /* xwing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xwing.png; sourceTree = "<group>"; };
 		323BE2C81AD3343300054411 /* space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = space.jpg; sourceTree = "<group>"; };
+		32AC5DCC1AD5A85F0045E500 /* xwingBehind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xwingBehind.png; sourceTree = "<group>"; };
+		32AC5DCE1AD5A9800045E500 /* xwing_detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xwing_detail.png; path = XwingTests/xwing_detail.png; sourceTree = SOURCE_ROOT; };
+		32B087BF1AD4778900D12298 /* black-hole.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "black-hole.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +97,13 @@
 		323BE2A11AD3330B00054411 /* Xwing */ = {
 			isa = PBXGroup;
 			children = (
+				322D05F51AD5ED9B000D8E54 /* deathstar_detail.png */,
+				322D05F31AD5E7A2000D8E54 /* jumpSpace.jpg */,
+				3239E5A11AD5CAB90047B825 /* saiUfL2.png */,
+				32B087BF1AD4778900D12298 /* black-hole.jpg */,
 				323BE2C71AD3343300054411 /* xwing.png */,
+				32AC5DCC1AD5A85F0045E500 /* xwingBehind.png */,
+				32AC5DCE1AD5A9800045E500 /* xwing_detail.png */,
 				323BE2C81AD3343300054411 /* space.jpg */,
 				323BE2A61AD3330B00054411 /* AppDelegate.h */,
 				323BE2A71AD3330B00054411 /* AppDelegate.m */,
@@ -205,11 +223,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322D05F41AD5E7A2000D8E54 /* jumpSpace.jpg in Resources */,
 				323BE2AD1AD3330B00054411 /* LaunchScreen.xib in Resources */,
 				323BE2C91AD3343300054411 /* xwing.png in Resources */,
+				32AC5DD01AD5AA1A0045E500 /* xwing_detail.png in Resources */,
 				323BE2CA1AD3343300054411 /* space.jpg in Resources */,
+				32AC5DCD1AD5A85F0045E500 /* xwingBehind.png in Resources */,
+				32B087C01AD4778900D12298 /* black-hole.jpg in Resources */,
 				323BE2AA1AD3330B00054411 /* Images.xcassets in Resources */,
+				3239E5A21AD5CAB90047B825 /* saiUfL2.png in Resources */,
 				323BE2C61AD3331B00054411 /* AGTMainViewController.xib in Resources */,
+				322D05F61AD5ED9B000D8E54 /* deathstar_detail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +440,7 @@
 				323BE2BE1AD3330B00054411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		323BE2BF1AD3330B00054411 /* Build configuration list for PBXNativeTarget "XwingTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +449,7 @@
 				323BE2C11AD3330B00054411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
