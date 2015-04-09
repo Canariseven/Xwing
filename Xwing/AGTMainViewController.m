@@ -102,7 +102,7 @@
                                               
                                           }];
                      }];
-    [UIView animateWithDuration:10
+    [UIView animateWithDuration:9
                           delay:0
                         options: 0
                      animations:^{
@@ -126,7 +126,6 @@
                                                                    self.view.alpha = 0;
                                                                } completion:^(BOOL finished) {
                                                                    
-                                                                   
                                                                }];
                                               
                                           }];
@@ -145,7 +144,7 @@
                      }];
 }
 -(void)rotateSpace{
-    [UIView animateWithDuration:0.4
+    [UIView animateWithDuration:0.5
                           delay:0
                         options: 0
                      animations:^{
@@ -160,9 +159,9 @@
                                           animations:^{
                                               self.spaceView.alpha = 1;
                                               self.xwingView.alpha = 1;
-                                              self.space2View.alpha = 1;
-                                          } completion:^(BOOL finished) {
 
+                                          } completion:^(BOOL finished) {
+                                              self.space2View.alpha = 1;
                                               [self.spaceView.layer removeAllAnimations];
                                               if ([self.spaceView.layer animationForKey:@"SpinAnimation"] == nil){
                                                   CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
