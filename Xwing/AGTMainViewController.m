@@ -144,6 +144,8 @@
                      }];
 }
 -(void)rotateSpace{
+    [self.spaceView.layer removeAllAnimations];
+
     [UIView animateWithDuration:0.5
                           delay:0
                         options: 0
@@ -153,16 +155,12 @@
                      } completion:^(BOOL finished) {
                          self.spaceView.image = [UIImage imageNamed:@"black-hole.jpg"];
                          self.xwingView.image = [UIImage imageNamed:@"xwingBehind.png"];
-                         [UIView animateWithDuration:1
+                         [UIView animateWithDuration:0
                                                delay:0
                                              options: 0
                                           animations:^{
                                               self.spaceView.alpha = 1;
                                               self.xwingView.alpha = 1;
-
-                                          } completion:^(BOOL finished) {
-                                              self.space2View.alpha = 1;
-                                              [self.spaceView.layer removeAllAnimations];
                                               if ([self.spaceView.layer animationForKey:@"SpinAnimation"] == nil){
                                                   CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
                                                   animation.fromValue = [NSNumber numberWithFloat:0.0f];
@@ -171,6 +169,10 @@
                                                   animation.repeatCount = INFINITY;
                                                   [self.spaceView.layer addAnimation:animation forKey:@"SpinAnimation"];
                                               }
+                                          } completion:^(BOOL finished) {
+                                              self.space2View.alpha = 1;
+                                           
+                                
                                           }];
                      }];
     
